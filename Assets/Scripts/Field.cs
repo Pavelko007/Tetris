@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class Field : MonoBehaviour
 {
+    public GameObject BlockPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        SpawnBlockText();
+    }
+
+    private void SpawnBlockText()
+    {
+        Instantiate(BlockPrefab);
     }
 
     // Update is called once per frame

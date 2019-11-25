@@ -232,6 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a2aac439c884d4588d432ba6651daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BlockPrefab: {fileID: 6500573829115162440, guid: ad0407b4f6138654d96ab9b070d0787f,
+    type: 3}
 --- !u!4 &1070271208
 Transform:
   m_ObjectHideFlags: 0
